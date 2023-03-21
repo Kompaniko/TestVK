@@ -1,5 +1,7 @@
 import org.example.LoginFunctionality;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+@DisplayName("Проверка аутентификации ")
 public class loginFunctionalityTest {
 
     LoginFunctionality loginFunctionality = new LoginFunctionality();
@@ -13,14 +15,14 @@ public class loginFunctionalityTest {
         loginFunctionality.vkAuthInvalidPassword("nikitakompanic@gmail.com", "ko15juvF");
     }
 
-//    @Test
-//    public void testvkAuthInvalidLog(){
-//        loginFunctionality.vkAuthInvalidLogin("asdds12gmail.com","ko14juvF");
-//    }
-
     @Test
-    public void testSendMessage(){
-        loginFunctionality.sendMessage();
+    public void testvkAuthInvalidLog(){
+        loginFunctionality.vkAuthInvalidLogin("asdds12gmail.com","ko14juvF");
     }
+
+//    @Test
+//    public void testSendMessage(){
+//        loginFunctionality.sendMessage();
+//    }
 
 }

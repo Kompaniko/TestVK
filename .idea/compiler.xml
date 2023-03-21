@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="loginFunctionalityTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="loginFunctionalityTest" target="18" />
       <module name="TestVK" target="18" />
     </bytecodeTargetLevel>
   </component>

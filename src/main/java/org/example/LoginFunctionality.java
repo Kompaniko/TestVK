@@ -2,15 +2,18 @@ package org.example;
 
 import com.codeborne.selenide.ex.ElementNotFound;
 import com.codeborne.selenide.ex.ElementShould;
+import org.junit.jupiter.api.DisplayName;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
+
 
 import java.util.Set;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+@DisplayName("Проверка аутентификации ")
 public class LoginFunctionality {
 
     public void vkAuthValid(String login, String password){
