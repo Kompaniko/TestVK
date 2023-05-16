@@ -42,7 +42,7 @@ public class UIVKAutomation {
 
     public void vkSearchFriends() throws  InterruptedException{
         $(By.xpath("//*[@id=\"l_fr\"]/a/span")).click();
-        $(By.xpath("//*[@id=\"s_search\"]")).setValue("Аня Бочкарева");
+        $(By.xpath("//*[@id=\"s_search\"]")).setValue("Имя любого пользователя");
         $(By.xpath("//*[@id=\"friends_user_row125464720\"]/div[3]/div[1]/a")).click();
         Thread.sleep(4000);
         $(By.xpath("//*[@id=\"l_pr\"]/a/span[1]")).click();
